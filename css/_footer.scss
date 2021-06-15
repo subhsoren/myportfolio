@@ -1,0 +1,43 @@
+.footer {
+  background: #222;
+  &__logo {
+    color: #fff;
+    font-size: 2rem;
+  }
+  &__social__icons i {
+    color: #fff;
+    font-size: 1.2rem;
+    transition: all 0.5s ease-in-out;
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -ms-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+    &:hover {
+      color: $primary-color;
+    }
+  }
+  #myBtn {
+    // display: none;
+    color: whitesmoke;
+    position: fixed;
+    right: 20px;
+    z-index: 9999;
+    bottom: 30px;
+    font-size: 1.5rem;
+    background-color: $primary-color;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    border-radius: 50%;
+    transition: all 1s ease-in-out;
+    cursor: pointer;
+    animation: arrow 1s ease-in infinite;
+    -webkit-animation: arrow 1s ease-in infinite;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    box-shadow: 3px 5px 15px #000;
+  }
+}

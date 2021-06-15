@@ -1,0 +1,99 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+html {
+  scroll-behavior: smooth;
+}
+body {
+  overflow-x: hidden;
+}
+.highlight {
+  color: $primary-color;
+}
+h2 {
+  color: $title-color;
+  font-weight: 600;
+}
+p {
+  color: $text-color;
+  line-height: 2;
+}
+a {
+  text-decoration: none;
+  font-size: 1rem;
+}
+.header-wrapper .navbar .navbar-toggler {
+  outline: 0 !important;
+}
+ul {
+  list-style: none;
+}
+.btn__first {
+  border: 1px solid $secondary-color;
+  color: $secondary-color;
+  position: relative;
+  z-index: 1;
+  transition: all 0.5s ease-in-out;
+  -webkit-transition: all 0.5s ease-in-out;
+  -moz-transition: all 0.5s ease-in-out;
+  -ms-transition: all 0.5s ease-in-out;
+  -o-transition: all 0.5s ease-in-out;
+  &::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 0;
+    background: $secondary-color;
+    z-index: -1;
+    transition: all 0.5s ease-in-out;
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -ms-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+  }
+  &:hover::after {
+    width: 100%;
+  }
+  &:hover {
+    color: #333;
+  }
+}
+
+.btn__second {
+  border: 1px solid $primary-color;
+  color: $primary-color;
+  position: relative;
+  z-index: 1;
+  transition: all 0.5s ease-in-out;
+  -webkit-transition: all 0.5s ease-in-out;
+  -moz-transition: all 0.5s ease-in-out;
+  -ms-transition: all 0.5s ease-in-out;
+  -o-transition: all 0.5s ease-in-out;
+  &::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 0;
+    background: $primary-color;
+    z-index: -1;
+    transition: all 0.5s ease-in-out;
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -ms-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+  }
+  &:hover::after {
+    width: 100%;
+  }
+  &:hover {
+    color: #fff;
+  }
+}

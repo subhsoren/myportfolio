@@ -1,0 +1,744 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Subhash Soren || Portfolio</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="/plugins/bootstrap.min.css" />
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+      integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+      crossorigin="anonymous"
+    />
+    <!-- Boxicons CDN -->
+    <link
+      href="https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <!-- Main CSS -->
+    <link rel="stylesheet" href="css/main.css" />
+  </head>
+  <body>
+    <!-- header -->
+    <div class="header-wrapper">
+      <div class="header"></div>
+      <nav class="navbar navbar-expand-lg py-4 fixed-top" id="mainNav">
+        <div class="container">
+          <a class="navbar-brand" href="#">Portfolio</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#myNav"
+          >
+            <div class="line-1"></div>
+            <div class="line-2"></div>
+            <div class="line-3"></div>
+          </button>
+          <div class="collapse navbar-collapse" id="myNav">
+            <ul class="navbar-nav mb-2 mb-lg-0 m-auto">
+              <li class="nav-item">
+                <a class="nav-link active" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#projects">Projects</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#about">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#skills">Skills</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#services">Services</a>
+              </li>
+            </ul>
+            <form>
+              <a href="#contact" class="btn__first px-3 py-2"> Contact Me </a>
+            </form>
+          </div>
+        </div>
+      </nav>
+      <div class="content text-center">
+        <img
+          src="/images/profile.jpeg"
+          alt="profile__img"
+          class="header__img"
+        />
+        <h5 class="py-2">Hello I'm</h5>
+        <h1 class="m-0">Subhash Soren</h1>
+        <h4 class="pb-4"><span class="animate"></span></h4>
+        <div
+          class="buttons text-capitalize d-flex flex-column flex-md-row mt-3"
+        >
+          <a href="#projects" class="btn__first px-3 py-2 mr-2 mb-md-0 mb-3"
+            >view projects</a
+          >
+          <a
+            href="/resume_file/SubhashSoren-WebDeveloper-Resume.pdf"
+            target="_blank"
+            class="btn__first px-3 py-2"
+            >view resume</a
+          >
+        </div>
+      </div>
+      <div class="mouse">
+        <div class="wheel"></div>
+      </div>
+    </div>
+    <!-- end of header -->
+
+    <!-- projects section -->
+    <section class="projects py-5" id="projects">
+      <div class="container">
+        <div class="row">
+          <div class="col-10 mx-auto text-center">
+            <h2><span class="highlight">My</span> Projects</h2>
+          </div>
+        </div>
+        <!-- buttons row -->
+        <div class="row">
+          <div class="col-md-12 text-center">
+            <div class="projects-filter my-5">
+              <ul>
+                <li class="m-1 btn__second active" data-filter="*">All</li>
+                <li class="m-1 btn__second" data-filter=".landing">
+                  Landing Page
+                </li>
+                <li class="m-1 btn__second" data-filter=".web">Web Design</li>
+                <li class="m-1 btn__second" data-filter=".react">React Js</li>
+                <li class="m-1 btn__second" data-filter=".node">Node Js</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <!-- images filter -->
+        <div class="row grid">
+          <!-- grid box -->
+
+          <!-- single col -->
+          <div class="col-md-4 col-sm-6 grid-item my-2 web">
+            <div class="projects__content">
+              <img
+                src="/images/Restaurant- Webs.png"
+                alt=""
+                class="img-fluid"
+              />
+              <div class="projects__text text-center">
+                <h3>Restaurant Website</h3>
+                <div class="projects__text__link d-flex flex-column">
+                  <a
+                    href="https://github.com/subhsoren/foody-restaurant"
+                    target="_blank"
+                    class="my-3"
+                    ><i class="fab fa-github"></i>Source Code</a
+                  >
+                  <a
+                    href="https://foody-tasty-restaurant.netlify.app/"
+                    target="_blank"
+                    ><i class="fas fa-eye"></i>Live URL</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- end of single col -->
+          <!-- single col -->
+          <div class="col-md-4 col-sm-6 grid-item my-2 web">
+            <div class="projects__content">
+              <img src="/images/Fashion_Store_ .png" alt="" class="img-fluid" />
+              <div class="projects__text text-center">
+                <h3>Fashion Website</h3>
+                <div class="projects__text__link d-flex flex-column">
+                  <a
+                    href="https://github.com/subhsoren/fashionStore"
+                    target="_blank"
+                    class="my-3"
+                    ><i class="fab fa-github"></i>Source Code</a
+                  >
+                  <a
+                    href="https://fashion-store-website.netlify.app/"
+                    target="_blank"
+                    ><i class="fas fa-eye"></i>Live URL</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- end of single col -->
+          <!-- single col -->
+          <div class="col-md-4 col-sm-6 grid-item my-2 react">
+            <div class="projects__content">
+              <img
+                src="/images/Netflix Clone Ap.png"
+                alt=""
+                class="img-fluid"
+              />
+              <div class="projects__text text-center">
+                <h3>Netflix Clone</h3>
+                <div class="projects__text__link d-flex flex-column">
+                  <a href="facebook.com" target="_blank" class="my-3"
+                    ><i class="fab fa-github"></i>Source Code</a
+                  >
+                  <a
+                    href="https://netflix-website-clone-app.netlify.app/"
+                    target="_blank"
+                    ><i class="fas fa-eye"></i>Live URL</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- end of single col -->
+          <!-- single col -->
+          <div class="col-md-4 col-sm-6 grid-item my-2 landing">
+            <div class="projects__content">
+              <img src="/images/Slider_Landing.png" alt="" class="img-fluid" />
+              <div class="projects__text text-center">
+                <h3>Project Four</h3>
+                <div class="projects__text__link d-flex flex-column">
+                  <a
+                    href="https://github.com/subhsoren/slider_landing_page"
+                    target="_blank"
+                    class="my-3"
+                    ><i class="fab fa-github"></i>Source Code</a
+                  >
+                  <a
+                    href="https://slider-landing-page.netlify.app/"
+                    target="_blank"
+                    ><i class="fas fa-eye"></i>Live URL</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- end of single col -->
+          <!-- single col -->
+          <div class="col-md-4 col-sm-6 grid-item my-2">
+            <div class="projects__content">
+              <img src="/images/portfolio-5.jpg" alt="" class="img-fluid" />
+              <div class="projects__text text-center">
+                <h3>Project Five</h3>
+                <div class="projects__text__link d-flex flex-column">
+                  <a href="facebook.com" class="my-3"
+                    ><i class="fab fa-github"></i>Source Code</a
+                  >
+                  <a href=""><i class="fas fa-eye"></i>Live URL</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- end of single col -->
+          <!-- single col -->
+          <div class="col-md-4 col-sm-6 grid-item my-2 landing">
+            <div class="projects__content">
+              <img
+                src="/images/Nike-Landing-Page.png"
+                alt=""
+                class="img-fluid"
+              />
+              <div class="projects__text text-center">
+                <h3>Project Six</h3>
+                <div class="projects__text__link d-flex flex-column">
+                  <a
+                    href="https://github.com/subhsoren/nike_landing_page"
+                    target="_blank"
+                    class="my-3"
+                    ><i class="fab fa-github"></i>Source Code</a
+                  >
+                  <a
+                    href="https://nike-landing-page.netlify.app/"
+                    target="_blank"
+                    ><i class="fas fa-eye"></i>Live URL</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- end of single col -->
+
+          <!-- end of grid box -->
+        </div>
+        <!-- end of images filter -->
+      </div>
+    </section>
+    <!-- end of projects section -->
+
+    <!-- skills section -->
+    <section class="skills py-5" id="skills">
+      <div class="container">
+        <div class="row">
+          <div class="col-10 mx-auto text-center">
+            <h2 class="py-3"><span class="highlight">My</span> Skills</h2>
+          </div>
+        </div>
+        <div class="row">
+          <!-- first col -->
+          <div class="col-md-6 col-10 mx-auto my-5">
+            <h4 class="mb-5">My Expertise</h4>
+            <!-- slider -->
+            <div
+              id="carouselSkills"
+              class="carousel slide"
+              data-bs-ride="carousel"
+            >
+              <ol class="carousel-indicators">
+                <button
+                  type="button"
+                  class="active"
+                  data-bs-target="#carouselSkills"
+                  data-bs-slide-to="0"
+                ></button>
+                <button
+                  type="button"
+                  data-bs-target="#carouselSkills"
+                  data-bs-slide-to="1"
+                ></button>
+                <button
+                  type="button"
+                  data-bs-target="#carouselSkills"
+                  data-bs-slide-to="2"
+                ></button>
+              </ol>
+
+              <div class="carousel-inner">
+                <!-- first slide -->
+                <div class="carousel-item active">
+                  <!-- single col -->
+                  <div class="skills__box d-flex">
+                    <div class="skills__icon me-3">
+                      <i class="fab fa-html5"></i>
+                    </div>
+                    <div class="skills__content">
+                      <h6>Hyper Text Markup Language(HTML)</h6>
+                      <p>
+                        I have knowledge in this technology and I use this
+                        technology in my project as well.
+                      </p>
+                    </div>
+                  </div>
+                  <!-- end of single col -->
+                  <!-- single col -->
+                  <div class="skills__box d-flex">
+                    <div class="skills__icon me-3">
+                      <i class="fab fa-css3"></i>
+                    </div>
+                    <div class="skills__content">
+                      <h6>Cascading Style Sheets(CSS)</h6>
+                      <p>
+                        I have knowledge in this technology and I use this
+                        technology in my project as well.
+                      </p>
+                    </div>
+                  </div>
+                  <!-- end of single col -->
+                  <!-- single col -->
+                  <div class="skills__box d-flex">
+                    <div class="skills__icon me-3">
+                      <i class="fab fa-js"></i>
+                    </div>
+                    <div class="skills__content">
+                      <h6>Javascript(Js)</h6>
+                      <p>
+                        I have knowledge in this technology and I use this
+                        technology in my project as well.
+                      </p>
+                    </div>
+                  </div>
+                  <!-- end of single col -->
+                </div>
+                <!-- end of first slide -->
+                <!-- second slide -->
+                <div class="carousel-item">
+                  <!-- single col -->
+                  <div class="skills__box d-flex">
+                    <div class="skills__icon me-3">
+                      <i class="fab fa-sass"></i>
+                    </div>
+                    <div class="skills__content">
+                      <h6>Syntactically Awesome Style Sheets(SASS)</h6>
+                      <p>
+                        I have knowledge in this technology and I use this
+                        technology in my project as well.
+                      </p>
+                    </div>
+                  </div>
+                  <!-- end of single col -->
+                  <!-- single col -->
+                  <div class="skills__box d-flex">
+                    <div class="skills__icon me-3">
+                      <i class="fab fa-bootstrap"></i>
+                    </div>
+                    <div class="skills__content">
+                      <h6>Bootstrap</h6>
+                      <p>
+                        I have knowledge in this technology and I use this
+                        technology in my project as well.
+                      </p>
+                    </div>
+                  </div>
+                  <!-- end of single col -->
+                  <!-- single col -->
+                  <div class="skills__box d-flex">
+                    <div class="skills__icon me-3">
+                      <i class="fab fa-git-alt"></i>
+                    </div>
+                    <div class="skills__content">
+                      <h6>Git/GitHub</h6>
+                      <p>
+                        I have knowledge in this technology and I use this
+                        technology in my project as well.
+                      </p>
+                    </div>
+                  </div>
+                  <!-- end of single col -->
+                </div>
+                <!-- end of second slide -->
+                <!-- third slide -->
+                <div class="carousel-item">
+                  <!-- single col -->
+                  <div class="skills__box d-flex">
+                    <div class="skills__icon me-3">
+                      <i class="fab fa-react"></i>
+                    </div>
+                    <div class="skills__content">
+                      <h6>React Js</h6>
+                      <p>
+                        I have knowledge in this technology and I use this
+                        technology in my project as well.
+                      </p>
+                    </div>
+                  </div>
+                  <!-- end of single col -->
+                  <!-- single col -->
+                  <div class="skills__box d-flex">
+                    <div class="skills__icon me-3">
+                      <i class="fab fa-node-js"></i>
+                    </div>
+                    <div class="skills__content">
+                      <h6>NodeJs</h6>
+                      <p>
+                        I have knowledge in this technology and I use this
+                        technology in my project as well.
+                      </p>
+                    </div>
+                  </div>
+                  <!-- end of single col -->
+                  <!-- single col -->
+                  <div class="skills__box d-flex">
+                    <div class="skills__icon me-3">
+                      <i class="fab fa-node"></i>
+                    </div>
+                    <div class="skills__content">
+                      <h6>Express Js</h6>
+                      <p>
+                        I have knowledge in this technology and I use this
+                        technology in my project as well.
+                      </p>
+                    </div>
+                  </div>
+                  <!-- end of single col -->
+                </div>
+
+                <!-- end of third slide -->
+              </div>
+            </div>
+            <!-- end of slider -->
+          </div>
+          <!-- end of first col -->
+          <!-- second col -->
+          <div class="col-md-6 col-10 mx-auto my-5 align-self-center">
+            <img
+              src="/images/skills.svg"
+              alt="skills image"
+              class="img-fluid"
+            />
+          </div>
+          <!-- end of second col -->
+        </div>
+      </div>
+    </section>
+    <!-- end of skills section -->
+
+    <!-- About Section -->
+    <section class="about py-5" id="about">
+      <div class="container">
+        <div class="row">
+          <div class="col-10 mx-auto text-center">
+            <h2 class="py-3">About <span class="highlight">Me</span></h2>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-6 col-10 mx-auto text-center py-3">
+            <img src="/images/photo.jpg" alt="about photo" class="img-fluid" />
+          </div>
+          <div
+            class="
+              col-md-6 col-10
+              mx-auto
+              align-self-center
+              justify-content-start
+              py-3
+            "
+          >
+            <h3>Hi! I'm Subhash Kumar Soren</h3>
+            <p class="py-3">
+              Welcome to my portfolio website. I am Front End Developer
+              Developer. I always like to create something on my own which is
+              helpful for others. If you have any project to be done contact me.
+              I will try to give you the best services as I can. Thank you for
+              visiting my website.
+            </p>
+            <a
+              class="btn__second px-3 py-2"
+              href="/resume_file/SubhashSoren-WebDeveloper-Resume.pdf"
+              target="_blank"
+              >Download CV</a
+            >
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- end of About Section -->
+
+    <!-- counter section -->
+    <section class="counter py-5">
+      <div class="container">
+        <div class="row text-center">
+          <!-- single col -->
+          <div class="col-10 mx-auto col-md-3 col-sm-6 text-center">
+            <i class="bx bxs-coffee"></i>
+
+            <h3 class="py-2 m-0">
+              <span class="counter__number" data-count="200">200</span>+
+            </h3>
+            <p>Coffee</p>
+          </div>
+          <!-- end of single col -->
+          <!-- single col -->
+          <div class="col-10 mx-auto col-md-3 col-sm-6 text-center">
+            <i class="bx bxs-time-five"></i>
+
+            <h3 class="py-2 m-0">
+              <span class="counter__number" data-count="3500">3500</span>+
+            </h3>
+            <p>Hours Code</p>
+          </div>
+          <!-- end of single col -->
+          <!-- single col -->
+          <div class="col-10 mx-auto col-md-3 col-sm-6 text-center">
+            <i class="bx bx-code-curly"></i>
+
+            <h3 class="py-2 m-0">
+              <span class="counter__number" data-count="800">800</span>k
+            </h3>
+            <p>Lines of Code</p>
+          </div>
+          <!-- end of single col -->
+          <!-- single col -->
+          <div class="col-10 mx-auto col-md-3 col-sm-6 text-center">
+            <i class="bx bx-hive"></i>
+
+            <h3 class="py-2 m-0">
+              <span class="counter__number" data-count="10">10</span>+
+            </h3>
+            <p>Projects</p>
+          </div>
+          <!-- end of single col -->
+        </div>
+      </div>
+    </section>
+    <!-- end of counter section -->
+
+    <!-- services section -->
+    <section class="services py-5" id="services">
+      <div class="container">
+        <div class="row">
+          <div class="col-10 mx-auto text-center">
+            <h2 class="py-3"><span class="highlight">My</span> Services</h2>
+          </div>
+        </div>
+        <div class="row">
+          <!-- single col -->
+          <div class="col-md-4 col-10 mx-auto py-3 text-center">
+            <div class="services__content p-5">
+              <i class="fas fa-desktop"></i>
+              <h3 class="py-3">Web Development</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Molestias commodi modi et dolore quas tenetur?
+              </p>
+            </div>
+          </div>
+          <!-- end of single col -->
+          <!-- single col -->
+          <div class="col-md-4 col-10 mx-auto py-3 text-center">
+            <div class="services__content p-5">
+              <i class="fas fa-mobile"></i>
+              <h3 class="py-3">Responsiveness</h3>
+              <p>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Id
+                perferendis sit obcaecati, tempora est laudantium.
+              </p>
+            </div>
+          </div>
+          <!-- end of single col -->
+          <!-- single col -->
+          <div class="col-md-4 col-10 mx-auto py-3 text-center">
+            <div class="services__content p-5">
+              <i class="fas fa-code"></i>
+              <h3 class="py-3">Clean Code</h3>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed
+                eveniet perferendis dolorum, facere ex similique?
+              </p>
+            </div>
+          </div>
+          <!-- end of single col -->
+        </div>
+      </div>
+    </section>
+    <!-- end of services section -->
+
+    <!-- filler section -->
+    <section class="filler py-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-10 mx-auto text-center">
+            <h3 class="pb-5">
+              Have Any Project In Mind? Hire Me For Your Awesome Project
+            </h3>
+            <a href="" class="btn__first px-3 py-2">Hire Me</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- end of filler section -->
+
+    <!-- contact section -->
+    <section class="contact py-5" id="contact">
+      <div class="container">
+        <div class="row">
+          <div class="col-10 mx-auto text-center align-self-center">
+            <h2 class="py-3">Contact <span class="highlight">Me</span></h2>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-6 col-10 mx-auto py-5">
+            <img
+              src="/images/contact.svg"
+              alt="contact image"
+              class="img-fluid"
+            />
+          </div>
+          <div class="col-md-6 col-10 mx-auto py-5">
+            <form action="">
+              <div class="name__section my-3">
+                <input type="text" name="name" required />
+                <label for="name" class="label__name">
+                  <span class="content__name">Enter Your Name</span>
+                </label>
+              </div>
+              <div class="name__section my-3">
+                <input type="email" name="email" required />
+                <label for="email" class="label__name">
+                  <span class="content__name">Enter Your Email</span>
+                </label>
+              </div>
+              <div class="textarea my-3">
+                <textarea
+                  name=""
+                  id=""
+                  cols="80"
+                  rows="10"
+                  placeholder="Message"
+                ></textarea>
+              </div>
+              <div class="contact__button mt-3">
+                <a href="#" class="btn__second px-4 py-2">Submit</a>
+              </div>
+            </form>
+          </div>
+        </div>
+        <!-- contact__details -->
+        <div class="row text-center">
+          <div class="col-md-4 col-10 mx-auto py-3">
+            <i class="fas fa-phone pb-3"></i>
+            <p>+91- 8789118857</p>
+          </div>
+          <div class="col-md-4 col-10 mx-auto py-3">
+            <i class="fas fa-envelope pb-3"></i>
+            <p>subhashsoren44@gmail.com</p>
+          </div>
+          <div class="col-md-4 col-10 mx-auto py-3">
+            <i class="fas fa-map-marker-alt pb-3"></i>
+            <p>B.P Patuli, Kolkata-700094</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- end of contact section -->
+
+    <!-- footer section -->
+    <footer class="footer py-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-10 mx-auto text-center">
+            <a href="#" class="footer__logo">Subhash</a>
+            <div class="footer__social__icons pt-3">
+              <a
+                href="https://www.linkedin.com/in/subhash-soren-481250166/"
+                target="_blank"
+                ><i class="fab fa-linkedin me-3"></i></a
+              ><a href="https://twitter.com/SubhashSoren19" target="_blank"
+                ><i class="fab fa-twitter me-3"></i></a
+              ><a href="https://github.com/subhsoren" target="_blank"
+                ><i class="fab fa-github me-3"></i></a
+              ><a href="https://myaccount.google.com/profile" target="_blank"
+                ><i class="fab fa-google-plus me-3"></i
+              ></a>
+            </div>
+            <p class="pt-3 mb-0">
+              &copy; copyright 2021 ||
+              <span class="highlight"> All Rights Reserved</span>
+            </p>
+          </div>
+        </div>
+        <div class="scrollTop">
+          <i class="fas fa-angle-up" id="myBtn" onclick="topFunction()"></i>
+        </div>
+      </div>
+    </footer>
+    <!-- end of footer section -->
+    <!-- JQUERY plugin -->
+    <script src="/plugins/jquery-3.6.0.min.js"></script>
+    <!-- Anime js -->
+    <script src="/plugins/anime.min.js"></script>
+    <!-- Bootstrap Js -->
+    <script src="/plugins/bootstrap.min.js"></script>
+    <!-- Typed Js -->
+    <script src="/plugins/typed.js"></script>
+    <script>
+      var typed3 = new Typed(".animate", {
+        strings: ["Frontend Developer", "Web Developer"],
+        typeSpeed: 60,
+        backSpeed: 60,
+        loop: true,
+      });
+    </script>
+    <!-- isotopes plugin -->
+    <script src="/plugins/isotope.pkgd.min.js"></script>
+    <!-- image loaded -->
+    <script src="https://unpkg.com/imagesloaded@4/imagesloaded.pkgd.min.js"></script>
+    <!-- isotope js code -->
+    <script src="/js/isotope.js"></script>
+    <!-- navbar js -->
+    <script src="/js/navbar.js"></script>
+    <!-- Main Js -->
+    <script src="/js/app.js"></script>
+  </body>
+</html>
